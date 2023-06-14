@@ -113,4 +113,14 @@ p {
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
     padding: 10px;
     margin-bottom: 10px;
+    width: 700px;
+}
+.column-text2 {
+    border: 2px solid #e7e7e7;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 400px;
 }
