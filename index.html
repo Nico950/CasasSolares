@@ -13,13 +13,12 @@
         <div class="input-container">
             <div class="column-text">
                 <h3 style="text-align: center;">Potencia facturada</h3>
-                <p>Lo primero que debemos hacer es saber cuanto es el consumo anual de nuestro hogar para así calcular la potencia que tendrán que entregar los paneles solares.
-                    <p>Para esto nos fijaremos en la factura de nuestra companía eléctrica (el consumo de enero a diciembre) y las sumaremos.</p>
-                    <p>Si no tenemos todas las facturas, también podemos agregar un valor estimado de cada mes o un valor promedio. </p>
+                <p>Lo primero que debemos hacer es determinar el consumo anual de nuestro hogar para calcular la potencia que los paneles solares deberán suministrar.</p>
+                  <p>Para esto, consultaremos nuestras facturas eléctricas (desde enero hasta diciembre) y sumaremos los consumos indicados.</p>
+                <p>Si no contamos con todas las facturas, también podemos usar un valor estimado para cada mes o calcular un promedio.</p>
                     <h3 style="text-align: center;">Obtener el 40%</h3>
-                    <p>Una ves que tengamos el consumo anual en KWh, debemos obtener el 40% para estimar el consumo durante las horas de sol.</p>
-                        <p>Este 40% es la potencia que tendremos que cubrir con los paneles solares.</p>
-                    </p>
+                    <p>Una vez obtengamos el consumo anual en (kWh), debemos calcular el 40% para estimar el consumo durante las horas de sol.</p>
+                    <p>Este 40% representa la potencia que deberemos cubrir con los paneles solares.</p>                    
             </div>
             <div class="input-container">
                 <div class="container">
@@ -82,8 +81,9 @@
         <div id="resultado2" class="resultado3" >-</div>
     <div class="resultadok">
         KWh Anuales
-    <p style="color:black; font-size: 25px;" >↓</p>    
-    </div>
+        <p style="color:black; font-size: 25px;" >Se calcula el 40%</p>    
+        <p style="color:black; font-size: 25px;" >↓</p>    
+      </div>
         <h2 class="resultado" style="color: black;"> | 40 % |</h2>
         <div id="resultado1" class="resultado" >-</div>
     <div class="resultadok">
@@ -93,18 +93,18 @@
     <div class="container">
         <div class="input-container">
             <div class="column-text2">
-                <p>A continuación colocar la irradiación de la zona donde vamos a instalar los paneles solares.</p>
-                  <p> En <a href="https://insolacion.energizar.org.ar/" target="_blank" rel="noreferrer noopener">esta pagina</a> obtener la irradiación colocando la latitud y longitud del lugar.</p>
-                  <p> En deberemos saber la inclinación que vamos a usar en nuestros paneles solares para lograr un cálculo más exacto. 
-                  <p>Una ves obtenido el valor de la irradiación, podremos colocarlo aquí debajo para el calculo final.</p>
-                  <p>Para sacar la Radiacion anual tendremos que multiplicar el "AnnualAverage" por 365.</p>
+              <p>A continuación, debemos proporcionar la irradiación de la zona donde planeamos instalar los paneles solares.</p>
+              <p>Para obtener la irradiación, es necesario acceder a <a href="https://insolacion.energizar.org.ar/" target="_blank" rel="noreferrer noopener">esta pagina</a> y proporcionar la latitud y longitud del lugar.</p>                
+              <p>Además, es importante conocer la inclinación que utilizaremos en nuestros paneles solares para realizar un cálculo más preciso.</p>                
+              <p>Una vez obtenido el valor de la irradiación, podemos ingresarlo a continuación para realizar el cálculo final.</p>                
+              <p>Para obtener la radiación anual, multiplicaremos el valor de "AnnualAverage" por 365.</p>
                   </div>
             <input type="number" id="input2" step="0.01">
             <label for="input2">Radiación Anual</label>
         </div>
         <div class="input-container">
             <div class="column-text2">
-              <p>Tabla de coeficiente de rendimiento donde vemos las perdidas estimadas. Se redondea a 0.79.</p>
+              <p>A continuación, se presenta una tabla de coeficiente de rendimiento que muestra las pérdidas estimadas.</p>
               <center><img src="./Tabla.png"> </center>
               <p>Se redondea a 0.79</p>
 
@@ -114,11 +114,10 @@
         </div>
         <div class="input-container">
            <div class="column-text2"> 
-            <p>Si ya tenemos la “Radiación Anual” y el coeficiente de rendimiento en 0.79</p>
-            <p>Solo nos resta ir probando distintas potencias en KWh para acercarnos al valor de la potencia requerida por nuestro hogar.</p>  
-            <p>Si tenemos el resultado en Wh, deberemos dividirlo por 1000 para pasarlo a KWh. Ejemplo 5600Wh = 5.6Kwh.</p>                  
-            <p>Esta potencia sera las que nos guiara en la compra de los paneles solares y el inversor.</p>                  
-            <p>Coloque aqui debajo el valor en Kwh de la potencia estimada para compararlo con el 40% de nuestra potencia facturada.</p>        
+            <p>Si ya disponemos de la "Radiación Anual" y el coeficiente de rendimiento en 0.79, únicamente nos queda probar diferentes potencias en (kWh) para acercarnos al valor de potencia requerida por nuestro hogar.</p>
+              <p>En caso de que obtengamos el resultado en (Wh), deberemos dividirlo por 1000 para convertirlo a (kWh). Por ejemplo, 5600 Wh equivale a 5.6 kWh.</p>
+                <p>Esta potencia nos servirá como guía para la adquisición de paneles solares y el inversor correspondiente.</p>
+                  <p>A continuación, indique el valor en kWh de la potencia estimada para compararlo con el 40% de nuestra potencia facturada.</p>   
             </div>
             <input type="number" id="input1" step="0.01">
             <label for="input1">KWh</label>
