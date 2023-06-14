@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #6374be;
+}
+.logo-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.logo {
+    width: 100px; /* Ajusta el tamaño de la imagen según tus necesidades */
+}
+
+h1 {
+    text-align: center;
+    color: #000000;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 5px;
+}
+
+.input-container input[type="number"] {
+    width: 100px;
+    text-align: center;
+    padding: 8px;
+    border: 2px solid #dddddd;
+    border-radius: 4px;
+}
+
+.input-container label {
+    margin-top: 5px;
+    color: #1e11d4;
+}
+.input-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+.input-card {
+    width: 100px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffcc00;
+    color: #ffffff;
+    border-radius: 4px;
+}
+
+.card-text {
+    font-size: 14px;
+    text-align: center;
+    padding: 10px;
+}
+
+.energy-label {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #ffcc00;
+}
+
+.resultado {
+    font-size: 32px;
+    font-weight: bold;    
+    text-align: center;
+    padding: 20px;
+    width: 150px;
+    margin: 0 auto;
+    background-color: #ffcc00;
+    color: #ffffff;
+    border-radius: 4px;
+}
+.resultado3 {
+    font-size: 32px;
+    font-weight: bold;    
+    text-align: center;
+    width: 150px;
+    margin: 0 auto;
+    color: #ffffff;
+    border-radius: 4px;
+}
+
+p {
+    text-align: center;
+    color: #1e11d4;
+}
+
+.resultadok {
+    text-align: center;
+    color: #ffcc00;
+}
+/* Estilos para los recuadros de las columnas */
+.column-text {
+    border: 2px solid #e7e7e7;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 700px;
+}
+.column-text2 {
+    border: 2px solid #e7e7e7;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 400px;
+}
