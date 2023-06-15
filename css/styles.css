@@ -1,7 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    padding: 20px;
-    /*background-color: #6374be;*/
+    padding: 20px;    
     background-image: url(/images/BG.jpg);
     background-size: cover;
     background-position: center;
