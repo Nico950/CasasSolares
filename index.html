@@ -1,136 +1,178 @@
 <!DOCTYPE html>
 <html>
-<head>    
-    <title>Calculador Solar</title>
-    <link rel="stylesheet" href="./css/styles.css">
+
+<head>
+  <title>Calculador Solar</title>
+  <link rel="stylesheet" href="./css/styles.css">
 </head>
+
 <body>
-    <div class="logo-container">
-        <img src="./images/CAJA.png" alt="Logo" class="logo">
+  <u>
+  </u>
+  <div class="column-text3">
+    <div>
+      <center><img src="./images/CAJA.png" alt="Logo" class="logo"></center>
+      <h3 style="text-align: center;">¡Bienvenido a nuestra Calculadora de Potencia Solar!</h3>
+      <p>¿Quieres saber cuánta energía solar necesitas para tu hogar?</p>
+      <p>Nuestra calculadora te brindará una estimación rápida de la potencia requerida en paneles solares y el inversor
+        necesario. Sin embargo, ten en cuenta que estos resultados son aproximados y no representan cálculos exactos.
+      </p>
+      <p>Si deseas obtener información más detallada y precisa sobre cómo utilizar nuestra calculadora, te invitamos a
+        unirte a nuestro exclusivo Curso Inicial de Casas Solares <a href="https://casassolares.org/tienda/"
+          target="_blank" rel="noreferrer noopener">Instalador de paneles solares</a>.</p>
+      <p>Allí encontrarás información completa sobre el uso correcto de la calculadora y cómo obtener resultados más
+        precisos adaptados a tu situación específica.</p>
+      <p>¡Aprovecha el potencial de la energía solar y descubre la cantidad de paneles solares y el inversor adecuados
+        para tu hogar!</p>
     </div>
-    <h1>Calculadora Solar</h1>
-    <div class="containerr">
+  </div>
+  <hr>
+  <div class="container">
+    <div class="input-container">
+      <u>
+        <h1>Calculadora Solar</h1>
+      </u>
+      <div class="column-text">
+        <h3 style="text-align: center;">Potencia facturada</h3>
+        <p>Lo primero que debemos hacer es determinar el consumo anual de nuestro hogar para calcular la potencia que
+          los paneles solares deberán suministrar.</p>
+        <p>Para esto, consultaremos nuestras facturas eléctricas (desde enero hasta diciembre) y sumaremos los consumos
+          indicados.</p>
+        <p>Si no contamos con todas las facturas, también podemos usar un valor estimado para cada mes o calcular un
+          promedio.</p>
+        <h3 style="text-align: center;">Obtener el 40%</h3>
+        <p>Una vez obtengamos el consumo anual en (kWh), debemos calcular el 40% para estimar el consumo durante las
+          horas de sol.</p>
+        <p>Este 40% representa la potencia que deberemos cubrir con los paneles solares.</p>
+      </div>
+      <div class="input-container">
+        <div class="container">
+          <div class="input-group">
+            <input type="number" id="input4" step="0.01">
+            <label for="input4">Mes 1</label>
+          </div>
+          <div class="input-group">
+            <input type="number" id="input5" step="0.01">
+            <label for="input5">Mes 2</label>
+          </div>
+          <div class="input-group">
+            <input type="number" id="input6" step="0.01">
+            <label for="input6">Mes 3</label>
+          </div>
+          <div class="input-group">
+            <input type="number" id="input7" step="0.01">
+            <label for="input7">Mes 4</label>
+          </div>
+          <div class="input-group">
+            <input type="number" id="input8" step="0.01">
+            <label for="input8">Mes 5</label>
+          </div>
+          <div class="input-group">
+            <input type="number" id="input9" step="0.01">
+            <label for="input9">Mes 6</label>
+          </div>
+        </div>
         <div class="input-container">
-            <div class="column-text">
-                <h3 style="text-align: center;">Potencia facturada</h3>
-                <p>Lo primero que debemos hacer es determinar el consumo anual de nuestro hogar para calcular la potencia que los paneles solares deberán suministrar.</p>
-                  <p>Para esto, consultaremos nuestras facturas eléctricas (desde enero hasta diciembre) y sumaremos los consumos indicados.</p>
-                <p>Si no contamos con todas las facturas, también podemos usar un valor estimado para cada mes o calcular un promedio.</p>
-                    <h3 style="text-align: center;">Obtener el 40%</h3>
-                    <p>Una vez obtengamos el consumo anual en (kWh), debemos calcular el 40% para estimar el consumo durante las horas de sol.</p>
-                    <p>Este 40% representa la potencia que deberemos cubrir con los paneles solares.</p>                    
+          <div class="container">
+            <div class="input-group">
+              <input type="number" id="input10" step="0.01">
+              <label for="input10">Mes 7</label>
             </div>
-            <div class="input-container">
-                <div class="container">
-                  <div class="input-group">
-                    <input type="number" id="input4" step="0.01">
-                    <label for="input4">Mes 1</label>
-                  </div>
-                  <div class="input-group">
-                    <input type="number" id="input5" step="0.01">
-                    <label for="input5">Mes 2</label>
-                  </div>
-                  <div class="input-group">
-                    <input type="number" id="input6" step="0.01">
-                    <label for="input6">Mes 3</label>
-                  </div>
-                  <div class="input-group">
-                    <input type="number" id="input7" step="0.01">
-                    <label for="input7">Mes 4</label>
-                </div>
-                <div class="input-group">
-                    <input type="number" id="input8" step="0.01">
-                    <label for="input8">Mes 5</label>
-                  </div>
-                  <div class="input-group">
-                    <input type="number" id="input9" step="0.01">
-                    <label for="input9">Mes 6</label>
-                  </div>
+            <div class="input-group">
+              <input type="number" id="input11" step="0.01">
+              <label for="input11">Mes 8</label>
             </div>
-            <div class="input-container">
-                <div class="container">                  
-                  <div class="input-group">
-                    <input type="number" id="input10" step="0.01">
-                    <label for="input10">Mes 7</label>
-                  </div>
-                  <div class="input-group">
-                    <input type="number" id="input11" step="0.01">
-                    <label for="input11">Mes 8</label>
-                  </div>
-                  <div class="input-group">
-                    <input type="number" id="input12" step="0.01">
-                    <label for="input12">Mes 9</label>
-                  </div>
-                  <div class="input-group">
-                    <input type="number" id="input13" step="0.01">
-                    <label for="input13">Mes 10</label>
-                  </div>
-                  <div class="input-group">
-                    <input type="number" id="input14" step="0.01">
-                    <label for="input14">Mes 11</label>
-                  </div>
-                  <div class="input-group">
-                    <input type="number" id="input15" step="0.01">
-                    <label for="input15">Mes 12</label>
-                  </div>
+            <div class="input-group">
+              <input type="number" id="input12" step="0.01">
+              <label for="input12">Mes 9</label>
             </div>
-              
+            <div class="input-group">
+              <input type="number" id="input13" step="0.01">
+              <label for="input13">Mes 10</label>
+            </div>
+            <div class="input-group">
+              <input type="number" id="input14" step="0.01">
+              <label for="input14">Mes 11</label>
+            </div>
+            <div class="input-group">
+              <input type="number" id="input15" step="0.01">
+              <label for="input15">Mes 12</label>
+            </div>
+          </div>
+
         </div>
         <h2 class="energy-label">Potencia facturada</h2>
 
-        <div id="resultado2" class="resultado3" >-</div>
-    <div class="resultadok">
-        KWh Anuales
-        <p style="color:black; font-size: 25px;" >Se calcula el 40%</p>    
-        <p style="color:black; font-size: 25px;" >↓</p>    
-      </div>
+        <div id="resultado2" class="resultado3">-</div>
+        <div class="resultadok">
+          KWh Anuales
+        </div>
+        <h2 class="energy-label">X</h2>
         <h2 class="resultado" style="color: black;"> | 40 % |</h2>
-        <div id="resultado1" class="resultado" >-</div>
-    <div class="resultadok">
-        KWh Anuales
-    </div>
-    <h1>Potencia de paneles</h1>
-    <div class="container">
-        <div class="input-container">
+        <div id="resultado1" class="resultado">-</div>
+        <div class="resultadok">
+          KWh Anuales
+        </div>
+        <h1>Potencia de paneles</h1>
+        <div class="container">
+          <div class="input-container">
             <div class="column-text2">
-              <p>A continuación, debemos proporcionar la irradiación de la zona donde planeamos instalar los paneles solares.</p>
-              <p>Para obtener la irradiación, es necesario acceder a <a href="https://insolacion.energizar.org.ar/" target="_blank" rel="noreferrer noopener">esta pagina</a> y proporcionar la latitud y longitud del lugar.</p>                
-              <p>Además, es importante conocer la inclinación que utilizaremos en nuestros paneles solares para realizar un cálculo más preciso.</p>                
-              <p>Una vez obtenido el valor de la irradiación, podemos ingresarlo a continuación para realizar el cálculo final.</p>                
+              <p>A continuación, debemos proporcionar la irradiación de la zona donde planeamos instalar los paneles
+                solares.</p>
+              <p>Para obtener la irradiación, es necesario acceder a <a href="https://insolacion.energizar.org.ar/"
+                  target="_blank" rel="noreferrer noopener">esta pagina</a> y proporcionar la latitud y longitud del
+                lugar.</p>
+              <p>Además, es importante conocer la inclinación que utilizaremos en nuestros paneles solares para realizar
+                un cálculo más preciso.</p>
+              <p>Una vez obtenido el valor de la irradiación, podemos ingresarlo a continuación para realizar el cálculo
+                final.</p>
               <p>Para obtener la radiación anual, multiplicaremos el valor de "AnnualAverage" por 365.</p>
-                  </div>
+            </div>
             <input type="number" id="input2" step="0.01">
             <label for="input2">Radiación Anual</label>
-        </div>
-        <div class="input-container">
+          </div>
+          <div class="input-container">
             <div class="column-text2">
-              <p>A continuación, se presenta una tabla de coeficiente de rendimiento que muestra las pérdidas estimadas.</p>
+              <p>A continuación, se presenta una tabla de coeficiente de rendimiento que muestra las pérdidas estimadas.
+              </p>
               <center><img src="./images/Tabla.png"> </center>
               <p>Se redondea a 0.79</p>
 
             </div>
             <input type="number" id="input3" value="0.79" disabled>
             <label for="input3">Coef. de Rendimiento</label>
-        </div>
-        <div class="input-container">
-           <div class="column-text2"> 
-            <p>Si ya disponemos de la "Radiación Anual" y el coeficiente de rendimiento en 0.79, únicamente nos queda probar diferentes potencias en (kWh) para acercarnos al valor de potencia requerida por nuestro hogar.</p>
-              <p>En caso de que obtengamos el resultado en (Wh), deberemos dividirlo por 1000 para convertirlo a (kWh). Por ejemplo, 5600 Wh equivale a 5.6 kWh.</p>
-                <p>Esta potencia nos servirá como guía para la adquisición de paneles solares y el inversor correspondiente.</p>
-                  <p>A continuación, indique el valor en kWh de la potencia estimada para compararlo con el 40% de nuestra potencia facturada.</p>   
+          </div>
+          <div class="input-container">
+            <div class="column-text2">
+              <p>Si ya disponemos de la "Radiación Anual" y el coeficiente de rendimiento en 0.79, únicamente nos queda
+                probar diferentes potencias en (kWh) para acercarnos al valor de potencia requerida por nuestro hogar.
+              </p>
+              <p>En caso de que obtengamos el resultado en (Wh), deberemos dividirlo por 1000 para convertirlo a (kWh).
+                Por ejemplo, 5600 Wh equivale a 5.6 kWh.</p>
+              <p>Esta potencia nos servirá como guía para la adquisición de paneles solares y el inversor
+                correspondiente.</p>
+              <p>A continuación, indique el valor en kWh de la potencia estimada para compararlo con el 40% de nuestra
+                potencia facturada.</p>
             </div>
             <input type="number" id="input1" step="0.01">
             <label for="input1">KWh</label>
+          </div>
         </div>
-    </div>
 
-    <h2 class="energy-label">Energía Anual</h2>
+        <h2 class="energy-label">Energía Anual</h2>
 
-    <div id="resultado" class="resultado" >-</div>
-<div class="resultadok">
-    KWh Anuales
-</div>
-
-    <script src="./js/script.js"></script>
+        <div id="resultado" class="resultado">-</div>
+        <div class="resultadok">
+          KWh Anuales
+        </div>
+        <p></p>
+        <div>
+          <a href="https://casassolares.org/" rel="noreferrer noopener"><button>
+              << CasasSolares.org </button></a>
+        </div>
+        <hr>
+        <script src="./js/script.js"></script>
+      </div>
 </body>
+
 </html>
