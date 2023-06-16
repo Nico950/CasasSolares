@@ -1,13 +1,14 @@
 # CasasSolares
-## Calculador de paneles solares para el hogar
-Versión 2.0
+## Solar Panel Calculator for Homes
+Version 2.0
 
-¿Quieres saber cuánta energía solar necesitas para tu hogar?
+Do you want to know how much solar energy you need for your home?
 
-Nuestra calculadora te proporcionará una estimación rápida de la potencia requerida en paneles solares y el inversor necesario. Sin embargo, ten en cuenta que estos resultados son aproximados y no representan cálculos exactos.
+Our calculator will provide you with a quick estimate of the required power in solar panels and the necessary inverter. However, please note that these results are approximate and do not represent exact calculations.
 
-Si deseas obtener información más detallada y precisa sobre cómo utilizar nuestra calculadora, te invitamos a unirte a nuestro exclusivo Curso Inicial de Casas Solares para Instaladores de Paneles Solares.
+If you want more detailed and accurate information on how to use our calculator, we invite you to join our exclusive Solar Homes Initial Course for Solar Panel Installers.
 
-Allí encontrarás información completa sobre el uso adecuado de la calculadora y cómo obtener resultados más precisos adaptados a tu situación específica.
+There, you will find comprehensive information on the proper use of the calculator and how to obtain more precise results tailored to your specific situation.
 
-¡Aprovecha el potencial de la energía solar y descubre la cantidad adecuada de paneles solares e inversores para tu hogar!
+Take advantage of the potential of solar energy and discover the right amount of solar panels and inverter for your home!
+
