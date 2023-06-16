@@ -6,6 +6,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    font-size: 20px;
 }
 .logo-container {
     display: flex;
@@ -110,6 +111,7 @@ u {
 p {
     text-align: center;
     color: #1e11d4;
+    font-size: 20px;
 }
 
 .resultadok {
